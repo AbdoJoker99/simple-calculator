@@ -26,17 +26,20 @@
 
 1. Clone the repository:
 ```bash
-https://github.com/AbdoJoker99/xo.git
+https://github.com/AbdoJoker99/simple-calculator
 ```
 ## 📱 Supported Platforms
 - Web
 - Windows
+
  ## 🔧 Configuration
 Customize game settings in \`lib/config/game_settings.dart\`:
 - Button themes
 - Precision settings
+
  ## 🧪 Testing
 - Manual testing for UI responsiveness and functionality
+  
  ## 🌐 Contact
 Your Name - chessjoker27@example.com
 
