@@ -1,4 +1,4 @@
-#Calculator
+# Calculator
 
 ## Project Overview
 
@@ -13,7 +13,7 @@
 - JavaScript
 - 
 ## 🖼️ Screenshots
-![Game Screenshot](https://github.com/AbdoJoker99/xo/blob/main/Screenshot%202024-12-01%20225659.png?raw=true)
+![Calculator Screenshot](https://github.com/AbdoJoker99/simple-calculator/blob/main/Screenshot%202024-12-12%20060354.png?raw=true)
 &nbsp;
 
 ### Prerequisites
