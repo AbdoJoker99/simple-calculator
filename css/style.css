@@ -1,0 +1,139 @@
+:root {
+    --bg-primary: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --accent-primary: #bb86fc;
+    --accent-secondary: #03dac6;
+    --error-color: #cf6679;
+}
+
+.theme-light {
+    --bg-primary: #f5f5f5;
+    --bg-secondary: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: #666666;
+    --accent-primary: #6200ee;
+    --accent-secondary: #03dac6;
+    --error-color: #b00020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.calculator-container {
+    display: flex;
+    width: 800px;
+    background-color: var(--bg-secondary);
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.calculator {
+    flex: 2;
+    padding: 20px;
+}
+
+.history-panel {
+    flex: 1;
+    background-color: var(--bg-primary);
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.calculator-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#display {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: none;
+    border-radius: 10px;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    direction: rtl;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.button {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.operator {
+    background-color: var(--accent-secondary);
+    color: var(--bg-primary);
+}
+
+.scientific {
+    background-color: var(--text-secondary);
+    color: var(--bg-primary);
+}
+
+.history-item {
+    background-color: var(--bg-secondary);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.history-item:hover {
+    background-color: var(--accent-primary);
+}
+
+.mode-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.mode-btn {
+    flex-grow: 1;
+}
