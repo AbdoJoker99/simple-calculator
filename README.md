@@ -4,7 +4,7 @@
 
 ## 🌟 Features
 - Responsive calculator interface
-- Basic arithmetic operations (Addition, Subtraction, Multiplication, Division and other mathematical operation🤩)
+- Basic  operations (Addition, Subtraction, Multiplication, Division and other mathematical operation🤩)
 - Clear and Reset functionality
 
 ## 🛠 Technologies Used
