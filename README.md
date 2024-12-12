@@ -4,8 +4,8 @@
 
 ## 🌟 Features
 - Responsive calculator interface
-- Score tracking
-- Clear and Reset functionalit
+- Basic arithmetic operations (Addition, Subtraction, Multiplication, Division and other mathematical operation🤩)
+- Clear and Reset functionality
 
 ## 🛠 Technologies Used
 - HTML
