@@ -11,16 +11,10 @@
 - HTML
 - CSS
 - JavaScript
-- 
+  
 ## 🖼️ Screenshots
 ![Calculator Screenshot](https://github.com/AbdoJoker99/simple-calculator/blob/main/Screenshot%202024-12-12%20060354.png?raw=true)
 &nbsp;
-
-### Prerequisites
-- Flutter SDK (latest stable version)
-- Dart SDK
-- Android Studio or VS Code
-- Git
 
   ### Installation
 
